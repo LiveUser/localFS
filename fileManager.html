@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"></meta>
+            <script src="localFSlibrary.js"></script>
+            <link href="style.css" rel="stylesheet"/>
+            <script src="fileSystemLive.js"></script>
+        </head>
+        <body>
+            <div id="main">JS.FS</div>
+            <p id="path" style="border-bottom: 2px solid black;">./path</p>
+            <table>
+                <tr>
+                    <td onclick="makeDir();">New Folder</td>
+                    <td onclick="makeFile();">New File</td>
+                </tr>
+                <tr>
+                    <td onclick="delModeFolder();" id="delFol" name="disabled">Delete Folder</td>
+                    <td onclick="delMode();" id="delete" name="disabled">Delete File</td>
+                </tr>
+            </table>
+            <div id="container">
+                <!--<div class="fileOrFolder">
+                    <img class="logo" src="folder.svg"/>
+                    <div class="name">Games</div>
+                </div>-->
+            </div>
+            <img onclick="upDir();" id="up" src="up.png"/>
+        </body>
+    </html>
