@@ -3,7 +3,11 @@
 LocalFS turns the Complex tables of the browser's LocalStorage into a simple files and folders interface to make it easier for the programmer to store, retrieve and organize data.
 
 --------------------
-
+### Download/Setup
+1. <a href="localFSlibrary.js" download>Download localFS</a>
+2. Add localFS to your project by using a script tag on your html head
+3. You're all set, Happy Hacking!
+---------------------
 ### Features 
 1. [Create Folder](#localfscreatefilepathnamecont)
 2. [Create File](#localfscreatefilepathnamecont)
