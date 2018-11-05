@@ -4,7 +4,7 @@ LocalFS turns the Complex tables of the browser's LocalStorage into a simple fil
 
 --------------------
 ### Download/Setup
-1. <a href="localFSlibrary.js" download>Download localFS</a>
+1. <a href="localFSlibrary.js" download="localFSlibrary.js">Download localFS</a>
 2. Add localFS to your project by using a script tag on your html head
 3. You're all set, Happy Hacking!
 ---------------------
